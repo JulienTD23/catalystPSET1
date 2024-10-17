@@ -1,0 +1,171 @@
+<html></html>
+    <head>
+        <title>Class Notes for Math 115</title>
+        <!-- CSS Additions -->
+        <style>
+
+            /* All members of the invisible class are hidden from view. */
+            .invisible { 
+                display: none;
+            }
+            
+            /* Adjusted the spacing between list elements. */
+            ul {
+                line-height: 2 
+            } 
+
+           /* Used to center the placeholder image. */
+            .center { 
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%; }
+        </style>
+    </head>
+
+    <body>
+        <!-- Title/Header, and an image to accompany it. -->
+        <h1>Class Notes for <u>Math 115</u> 
+            <img src="https://cdn.vectorstock.com/i/500p/86/12/nerd-emoticon-vector-478612.jpg"
+            alt="studious" style="vertical-align: middle; margin-left: 20px" height="50" width="44.5">
+        </h1>
+        
+        <!-- List of sub-headers, and an image to accompany them. -->
+        <!-- Beneath each sub-header lies a button, which calls the function toggleDisplayNotes when clicked. -->
+         <ul>
+            <li><h2 id="Topic5.2">Topic 5.2 - The Definite Integral
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6zJ8JhSkUCvUAxpF2VwcV-DxqrK9oyEb8JA&s"
+                alt="5.2picture" style="vertical-align: middle; margin-left: 30px" height="96.75" width="281.25">
+            </h2>
+                <button onclick="toggleDisplayNotes('5.2', this)">Click here for notes!</button>
+            </li>
+
+            <li><h2 id="Topic5.3">Topic 5.3 - The Fundamental Theorem of Calculus
+                <img src="https://calcworkshop.com/wp-content/uploads/fundamental-theorem-calculus.png"
+                alt="5.3picture" style="vertical-align: middle; margin-left: 10px" height="180" width="290">
+            </h2>
+                <button onclick="toggleDisplayNotes('5.3', this)">Click here for notes!</button>
+            </li>
+         </ul>
+
+        <!-- Line break and dividing line for visual clarity. -->
+         <br>
+         <hr>
+
+         <!-- Our first document section with the id "notes". Contains a line break and placeholder image. -->
+         <!-- The contents of this section will eventually be replaced. It's the placeholder section. -->
+         <div id="notes">
+            <br>
+            <img src="https://t3.ftcdn.net/jpg/04/83/90/18/360_F_483901821_46VsNR67uJC3xIKQN4aaxR6GtAZhx9G8.jpg" 
+            alt="Placeholder" class="center">
+         </div>
+         
+         <!-- Our second document section with the id "topic5.2". -->
+         <!-- Contains notes on Topic 5.2. -->
+         <div id="topic5.2" class="invisible">
+            <h2>Topic 5.2 Notes</h2>
+            <h3>Definition of a <i>Definite Integral:</i></h3>
+            <img src="file:///C:/Users/earth/OneDrive/Pictures/Screenshots/5.2.1.png"
+            alt = "Definition of a Definite Integral" height="201" width ="546">
+            <h3>Theorem #3: </h3>
+            <img src="file:///C:/Users/earth/OneDrive/Pictures/Screenshots/5.2.2.png" 
+            alt = "Theorem 3" height="64.5" width="546">
+            <h3>Looking for more notes + practice problems?
+                <img src="file:///C:/Users/earth/OneDrive/Pictures/Screenshots/Screenshot%202024-10-13%20200111.png"
+                alt = "Pondering!" style="vertical-align: middle; margin-left: 10px" height="48.7" width="36">
+            </h3>
+            <p>Check out these guides from Paul's Online Math Notes.
+                <img src="https://i.etsystatic.com/28810262/r/il/2fc5e0/5785166966/il_1080xN.5785166966_nvy4.jpg"
+            alt = "Thumbsup!" style="vertical-align: middle" height="54.6" width="54.6">
+            </p>
+            <ul>
+                <li>
+                    <a href="https://tutorial.math.lamar.edu/Classes/CalcI/DefnofDefiniteIntegral.aspx">Definition of Definite Integrals</a>
+                </li>
+                <li>
+                    <a href="https://tutorial.math.lamar.edu/Classes/CalcI/ComputingDefiniteIntegrals.aspx">Computing Definite Integrals</a>
+                </li>
+                <li>
+                    <a href="https://tutorial.math.lamar.edu/Classes/CalcI/SubstitutionRuleDefinite.aspx">Substitution Rule for Definite Integrals</a>
+                </li>
+            </ul>
+         </div>
+
+         <!-- Our third document section with the id "topic5.3". -->
+         <!-- Contains notes on Topic 5.3. -->
+         <div id="topic5.3" class="invisible">
+            <h2>Topic 5.3 Notes</h2>
+            <h3>FTC <i>Part 1:</i></h3>
+            <img src="file:///C:/Users/earth/OneDrive/Pictures/Screenshots/Screenshot%202024-10-13%20214550.png"
+            alt = "FTC1" height="94.5" width ="444">
+            <h3>FTC <i>Part 2:</i></h3>
+            <img src="file:///C:/Users/earth/OneDrive/Pictures/Screenshots/Screenshot%202024-10-13%20214559.png"
+            alt = "FTC2" height="94.5" width ="444">
+            <h3>Looking for more notes + practice problems?
+                <img src="file:///C:/Users/earth/OneDrive/Pictures/Screenshots/Screenshot%202024-10-13%20200111.png"
+                alt = "Pondering!" style="vertical-align: middle; margin-left: 10px" height="48.7" width="36">
+            </h3>
+            <p>Check out these guides from Paul's Online Math Notes.
+                <img src="https://i.etsystatic.com/28810262/r/il/2fc5e0/5785166966/il_1080xN.5785166966_nvy4.jpg"
+            alt = "Thumbsup!" style="vertical-align: middle" height="54.6" width="54.6">
+            </p>
+            <ul>
+                <li>
+                    <a href="https://tutorial.math.lamar.edu/Classes/CalcI/DefnofDefiniteIntegral.aspx">Definition of Definite Integrals (Contains FTC1)</a>
+                </li>
+                <li>
+                    <a href="https://tutorial.math.lamar.edu/Classes/CalcI/ComputingDefiniteIntegrals.aspx">Computing Definite Integrals (Contains FTC2)</a>
+                </li>
+            </ul>
+         </div>
+         
+        <!-- JavaScript Functions -->
+        <script>
+
+            /* Our first function, colorTitle(title). */
+            /* Changes the color of the topic sub-headers to red if black, or black if red. */
+            /* Implemented in the next function, where it's intended to change the color to red when notes are displayed */
+            /* and change the color back to black when the notes are hidden. */      
+
+            function colorTitle(title) {
+                const change = document.getElementById('Topic' + title);
+                if(change.style.color == "red") {
+                    change.style.color = "black"
+                } else {
+                    change.style.color = "red"
+                }
+            }
+
+            /* Our second function, toggleDisplayNotes(chapter, button). Called when a topic sub-header button is clicked. */
+            /* Starts by calling colorTitle to change the color. */
+            /* After that, we initialize the two variables:  */
+            /* notePage: references the material inside our placeholder section. */
+            /* content: references the material within sections 2 & 3, the notes. */
+            /* If the placeholder section already contains notes, we hide it from view. */
+            /* Otherwise, we display the section and replace its contents with content (the notes) */
+            /* Lastly, we adjust the text on the buttons depending on the visibility of the contents. */
+            /* If the placeholder section is hidden from view, the button changes to 'Display Notes' */
+            /* Otherwise, the button changes to 'Hide Notes' */
+
+            function toggleDisplayNotes(chapter, button) {
+                colorTitle(chapter);
+
+                const notePage = document.getElementById("notes");
+                const content = document.getElementById("topic" + chapter).innerHTML;
+                if (notePage.innerHTML == content) {
+                    notePage.classList.toggle('invisible');
+                } else {
+                    notePage.classList.remove('invisible');
+                    notePage.innerHTML = content;
+                }
+
+                if (notePage.classList.contains('invisible')) {
+                    button.innerHTML = 'Display Notes'
+                } else {
+                    button.innerHTML = 'Hide Notes'
+                }
+            }
+
+        </script>
+    </body>
+</html>
